@@ -4,6 +4,8 @@ const taskTypeDefs = require('./task.js');
 
 
 const typeDefs = gql`
+    scalar Date
+    
     type Query {
         _: String
     }
